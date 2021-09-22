@@ -8,6 +8,10 @@
 } */
 
 @media only screen and (max-width:991px){
+    header{
+        width: 100%!important;
+    }
+    
 
     .designweb-title{
         color: white;
@@ -40,7 +44,14 @@
    
 }
 
-@media only screen and (max-width:721px){
+@media only screen and (max-width:768px){
+    header{
+        width: 100%!important;
+    }
+
+    nav{
+        width: 88%;
+    }
 
     .designweb-btn{
         text-decoration: none;
@@ -58,9 +69,21 @@
    
 }
 
-@media only screen and (max-width:414px){
+@media only screen and (max-width:576px){
+    header{
+        width: 100%!important;
+    }
+
+    .designweb-img{
+        margin-top: 2%;
+        width: 40%;
+        height: auto;
+        animation: imac-animation 2s ease infinite;
+        transform: translatey(0);
+        display: inline-block;
+    }
     nav{
-        width: 80%;
+        width: 90%;
     }
 
     .designweb-title{
